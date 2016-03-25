@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='en'>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PSYMAN</title>
+<link rel="stylesheet" href="style.css" />
+<script src="script.js"></script>
+<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+
+<body>
+	<p id="warning">This game is currently not Internet Explorer/Edge Friendly</p>
+  <p id="credits">Thank You to Stanley Tyrrell for playtesting from start to win!</p>
+<div id="theBox">
+	<header>
+  		<h1 id="title">PSYMAN</h1>
+  	</header>
+  	<div id="controls">
+  		<button id="reset" class="topButt" onclick="restart()">START/RESTART</button>
+  		<button id="strict" class="topButt" onclick="strictToggle()">STRICT</button>
+  	</div>
+  	<div id="scoreWrapper"><div id="current">00</div></div>
+	<div id="buttons">
+  		<button id="red" class="quadrant" onclick="tap('red');"></button>
+  		<button id="yellow" class="quadrant" onclick="tap('yellow');"></button>
+  		<button id="blue" class="quadrant" onclick="tap('blue');"></button>
+  		<button id="green" class="quadrant" onclick="tap('green');"></button>
+	</div>
+</div>
+</body>
+</html>

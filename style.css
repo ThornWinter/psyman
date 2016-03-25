@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+  color: grey;
+  font-family: 'VT323', monotype;
+}
+
+#theBox {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 5px;
+  background: #555;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 10px;
+  box-shadow: 2px 2px 2px black;
+  background-color: white;
+  border-radius: 10px;
+  color: purple;
+  text-align: center;
+  text-shadow: 0 0 5px black;
+}
+
+#controls {
+  width: 200px;
+  text-align: right;
+  float: left;
+}
+
+.topButt {
+  margin: 5px;
+  width: 150px;
+}
+
+#scoreWrapper {
+  font-size: 3em;
+  color: red;
+  background-color: black;
+  width: 55px;
+  height: 55px;
+  float: left;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#buttons {
+  width: 100%;
+  clear: both;
+  text-align: center;
+}
+
+#warning {
+  color: red;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#credits {
+  color: green;
+  text-align: center;
+}
+
+.quadrant {
+  width: 40px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+#red {
+  background-color: red;
+  opacity: .5;
+}
+
+#yellow {
+  background-color: yellow;
+  opacity: .5;
+}
+
+#blue {
+  background-color: blue;
+  opacity: .5;
+}
+
+#green {
+  background-color: green;
+  opacity: .5;
+}
